@@ -1,0 +1,24 @@
+//Inheritance ___ extends//
+
+
+class Human{
+    constructor(hands,legs,behaviour,task){
+        this.hands=hands;
+        this.legs=legs;
+        this.behaviour=behaviour;
+        this.task=task;
+    }
+}
+let Human1=new Human(2,2,"Harami",function(){
+    console.log("I am a Doctor")
+    
+});
+
+class Animal extends Human{
+
+}
+
+let =Animal1=new Animal("2","2","loyal",function(){
+    console.log("I am an animal")
+});
+console.log(Animal1);
